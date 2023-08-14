@@ -30,8 +30,7 @@ export function hotPotato(players: string[]) {
     // verifica quantos jogadores tem no jogo
     while (queue.size > 1) {
         const random = Math.floor(Math.random() * 10)
-        console.log(random)
-
+    
         // faz a fila se "mover" em circulo
         for (let i = 0; i < random; i++){
             console.log(queue.toString())
