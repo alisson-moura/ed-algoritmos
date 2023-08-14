@@ -33,7 +33,6 @@ export function hotPotato(players: string[]) {
     
         // faz a fila se "mover" em circulo
         for (let i = 0; i < random; i++){
-            console.log(queue.toString())
             queue.enqueue(queue.dequeue())
         }
             
