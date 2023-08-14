@@ -1,5 +1,5 @@
 import { describe, test, expect, beforeEach } from 'vitest'
-import { Queue } from "../../../src/data-structures/queue/queue";
+import { Queue } from "../../../src/data-structures/02-queue/queue";
 
 describe('Queue', () => {
     let queue: Queue;
