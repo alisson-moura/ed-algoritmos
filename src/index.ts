@@ -1,6 +1,7 @@
-import {balancedBrackets} from './data-structures/stack/problems/balanced-brackets'
+import { hotPotato } from "./data-structures/02-queue/problems/hot-potato"
 
-console.log(balancedBrackets('{()}[]'))
-console.log(balancedBrackets('{[()]}'))
-console.log(balancedBrackets('{[(])}'))
-console.log(balancedBrackets('{{[[(())]]}}'))
+const names = ['John', 'Jack', 'Camila', 'Ingrid', 'Carl']
+const result = hotPotato(names)
+
+result.eliminated.forEach(name => console.log(`${name} was eliminated from the Hot Potato Game.`))
+console.log(`The Winner is: ${result.winner}`)

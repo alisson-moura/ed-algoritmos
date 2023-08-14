@@ -1,4 +1,4 @@
-import { Stack } from "../../../src/data-structures/stack/stack";
+import { Stack } from "../../../src/data-structures/01-stack/stack";
 import { describe, test, beforeEach, expect } from 'vitest'
 
 describe('Stack with object', () => {

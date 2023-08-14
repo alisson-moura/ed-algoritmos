@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest'
-import { balancedBrackets } from '../../../src/data-structures/stack/problems/balanced-brackets';
+import { balancedBrackets } from '../../../src/data-structures/01-stack/problems/balanced-brackets';
 
 describe('balancedBrackets', () => {
     test('should return "YES" for a balanced bracket string', () => {

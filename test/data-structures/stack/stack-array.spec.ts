@@ -1,4 +1,4 @@
-import { StackArray } from "../../../src/data-structures/stack/stack-array";
+import { StackArray } from "../../../src/data-structures/01-stack/stack-array";
 import { describe, test, beforeEach, expect } from 'vitest'
 
 describe('Stack-Array', () => {

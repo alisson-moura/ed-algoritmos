@@ -1,4 +1,4 @@
-import { decimalToBinary } from "../../../src/data-structures/stack/problems/decimal-to-binary";
+import { decimalToBinary } from "../../../src/data-structures/01-stack/problems/decimal-to-binary";
 import { describe, test, expect } from 'vitest'
 
 describe('Decimal to binary with Stack', () => {
