@@ -1,5 +1,5 @@
 import { Equals, equals } from "../../utils/equals"
-import { Node } from "../models/linked-list"
+import { DoublyNode, Node } from "../models/linked-list"
 
 export class LinkedList<T> {
     #count: number
@@ -103,8 +103,20 @@ export class LinkedList<T> {
         return this.#count
     }
 
-    get head(): T | undefined {
-        return this.#head?.element
+    get head():  Node<T> | undefined {
+        return this.#head
+    }
+
+    set head(value: Node<T> | undefined) {
+        this.#head = value
+    }
+
+    increment() {
+        this.#count++
+    }
+
+    decrement() {
+        this.#count--
     }
 
     toString(): string {
